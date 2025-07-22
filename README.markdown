@@ -42,6 +42,7 @@ A real-time stock prediction system built with Python, Apache Kafka, Apache Spar
 3. **Set Up Docker**:
    - Ensure Docker and Docker Compose are installed.
    - Verify with:
+   - 
      ```bash
      docker --version
      docker-compose --version
@@ -49,8 +50,10 @@ A real-time stock prediction system built with Python, Apache Kafka, Apache Spar
 
 4. **Run deploy.bat**:
 
+   ```
    - Just run deploy.bat in command prompt
    - /scripts/deploy.bat
+   ```
 
 ## Usage
 
