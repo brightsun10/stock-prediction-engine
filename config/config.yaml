@@ -1,0 +1,14 @@
+kafka:
+  bootstrap_servers_host: localhost:9093
+  bootstrap_servers_container: kafka:9092
+  input_topic: stock-data
+  output_topic: stock-predictions
+spark:
+  checkpoint_location: './checkpoint'  # Or 'C:\\checkpoint' on Windows
+snowflake:
+  user='BRIGHTSUN10',
+  password='Nithinprakasha@10',
+  account='hadkati-dc53018',
+  warehouse='COMPUTE_WH',
+  database='INSURANCE_DB',
+  schema='PUBLIC'

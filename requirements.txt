@@ -1,0 +1,8 @@
+pandas
+scikit-learn
+numpy
+kafka-python
+pyspark==3.4.1
+snowflake-connector-python
+boto3
+pyyaml
