@@ -50,9 +50,10 @@ A real-time stock prediction system built with Python, Apache Kafka, Apache Spar
 
 4. **Run deploy.bat**:
 
+   Just run deploy.bat in command prompt
+
    ```
-   - Just run deploy.bat in command prompt
-   - /scripts/deploy.bat
+   /scripts/deploy.bat
    ```
 
 ## Usage
