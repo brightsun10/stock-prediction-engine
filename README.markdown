@@ -113,7 +113,7 @@ MIT License - See `LICENSE` file for details.
 
 ## Contact
 
-For issues or questions, open an issue on GitHub or contact [your-email@example.com].
+For issues or questions, open an issue on GitHub or contact nithinpsea10@gmail.com.
 
 ## Version
 
