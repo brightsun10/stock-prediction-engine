@@ -22,24 +22,8 @@ A real-time stock prediction system built with Python, Apache Kafka, Apache Spar
    git clone https://github.com/yourusername/stock-prediction-engine.git
    cd stock-prediction-engine
    ```
-
-2. **Install Python Dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-   Create `requirements.txt` with:
-   ```
-   kafka-python==2.0.2
-   pyspark==3.4.1
-   pandas==2.0.3
-   numpy==1.24.4
-   scikit-learn==1.3.2
-   joblib==1.3.2
-   yfinance==0.2.40
-   pyyaml==6.0.1
-   ```
-
-3. **Set Up Docker**:
+   
+2. **Set Up Docker**:
    - Ensure Docker and Docker Compose are installed.
    - Verify with:
     
@@ -48,7 +32,7 @@ A real-time stock prediction system built with Python, Apache Kafka, Apache Spar
    docker-compose --version
    ```
 
-4. **Run deploy.bat**:
+3. **Run deploy.bat**:
 
    Just run deploy.bat in command prompt
 
