@@ -18,21 +18,22 @@ A real-time stock prediction system built with Python, Apache Kafka, Apache Spar
 ## Installation
 
 1. **Clone the Repository**:
+
    ```bash
    git clone https://github.com/yourusername/stock-prediction-engine.git
    cd stock-prediction-engine
    ```
    
-2. **Set Up Docker**:
+3. **Set Up Docker**:
    - Ensure Docker and Docker Compose are installed.
    - Verify with:
-    
+  
    ```bash
    docker --version
    docker-compose --version
    ```
 
-3. **Run deploy.bat**:
+4. **Run deploy.bat**:
 
    Just run deploy.bat in command prompt
 
@@ -44,6 +45,7 @@ A real-time stock prediction system built with Python, Apache Kafka, Apache Spar
 
 ### 1. Train the Model
 Run the training script with real historic data:
+
 ```bash
 python train_model.py
 ```
@@ -52,6 +54,7 @@ python train_model.py
 
 ### 2. Deploy with Docker
 Start the entire stack:
+
 ```bash
 docker-compose up -d --build
 ```
@@ -59,6 +62,7 @@ docker-compose up -d --build
 
 ### 3. Monitor Logs
 Check the application logs:
+
 ```bash
 docker logs app -f
 ```
@@ -66,6 +70,7 @@ docker logs app -f
 
 ### 4. Consume Predictions
 Run the consumer in a separate terminal (outside Docker for testing):
+
 ```bash
 python consumer.py
 ```
@@ -73,10 +78,12 @@ python consumer.py
 
 ### 5. Stop the Application
 Gracefully stop the containers:
+
 ```bash
 docker-compose stop
 ```
 Or remove and recreate:
+
 ```bash
 docker-compose down
 ```
